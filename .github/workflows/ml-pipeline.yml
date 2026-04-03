@@ -65,6 +65,6 @@ jobs:
 
       - name: Push to Docker Hub
         run: |
-          docker build -t nehawawale23/ml-model:latest .
-          docker push nehawawale23/ml-model:latest
+          docker build -t wawaleneha07/ml-model:latest .
+          docker push wawaleneha07/ml-model:latest
           echo "Successfully deployed!"
